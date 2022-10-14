@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <menuitem id="menu_erp_root"
+        name="ERP"/>
+    <menuitem id="menu_erp_project"
+        name="Project"
+        parent="menu_erp_root"
+        sequence="0"/>
+    <menuitem id="menu_erp_messaging"
+        name="Messaging "
+        parent="menu_erp_root"
+        sequence="1"/>
+    <menuitem id="menu_erp_human_resources"
+        name="Human Resources"
+        parent="menu_erp_root"
+        sequence="2"/>
+    <menuitem id="menu_erp_management_system"
+        name="Management System"
+        parent="menu_erp_root"
+        sequence="3"/>
+    <menuitem id="menu_erp_report"
+        name="Reporting"
+        parent="menu_erp_root"
+        sequence="4"/>
+
+</odoo>

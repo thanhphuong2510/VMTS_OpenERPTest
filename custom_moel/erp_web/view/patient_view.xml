@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="view_erp_test" model="ir.ui.view">
+        <field name="name">test.erp</field>
+        <field name="model">erp.patient</field>
+    </record>
+
+    <record id="action_erp_view" model="ir.actions.act_window">
+        <field name="name">erp action</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">erp.patient</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Hey!create first project
+            </p>
+        </field>
+    </record>
+
+
+</odoo>
